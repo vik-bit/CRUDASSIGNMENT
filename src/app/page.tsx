@@ -14,16 +14,13 @@ export default function Home() {
               Next To Do List!
             </a>
           </h1>
-          <p className="text-lg text-gray-700 dark:text-gray-300">Made with TypeScript, Next.js, PostgreSQL, Shadcn UI, Prisma!</p>
+          <p className="text-lg text-gray-700 dark:text-gray-300">Made by Bikram Mohanty,linkedin profile -- https://www.linkedin.com/in/bikram-mohanty-50487023a/ , github profile -- https://github.com/vik-bit </p>
         </div>
 
         <div className="mt-12">
           <h2 className="text-3xl font-bold text-gray-800 dark:text-gray-100">Features</h2>
           <ol className="mt-4 text-lg text-gray-700 dark:text-gray-300 list-disc">
             <li>Sign In/Sign Up</li>
-            {/* <li>Forgot Password</li> */}
-            {/* <li>Update Profile</li> */}
-            {/* <li>Dark Mode</li> */}
             <li>Protected Routes</li>
             <li>Simple To Do List</li>
           </ol>

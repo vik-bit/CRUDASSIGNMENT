@@ -1,8 +1,7 @@
 
-
 # nextjs-todolist-w-prisma-postgresql
 
-This is a to-do list application created with Next.js 14. You can use it to manage your tasks efficiently. For a preview, visit the deployed website: [https://nextjs-todolist-git-production-bintang-rahmatullahs-projects.vercel.app/](https://nextjs-todolist-git-production-bintang-rahmatullahs-projects.vercel.app/), which is deployed using Vercel with its Vercel Postgres.
+This is a to-do list application created with Next.js 14. You can use it to manage your tasks efficiently. For a preview, visit the deployed website: [https://crudassignment-gamma.vercel.app/], which is deployed using Vercel with its Vercel Postgres.
 
 ## Getting Started
 
@@ -17,8 +16,7 @@ Ensure you have the following installed on your machine:
 
 1. **Clone the repository:**
     ```bash
-    git clone https://github.com/just-a-star/nextjs-todolist.git
-    cd nextjs-todolist
+    git clone https://github.com/vik-bit/CRUDASSIGNMENT
     ```
 
 2. **Install dependencies:**
@@ -37,11 +35,7 @@ Ensure you have the following installed on your machine:
     DATABASE_URL="your_database_url_here"
     NEXTAUTH_SECRET="your_nextauth_secret_here"
     ```
-    Example `.env.example`:
-    ```bash
-    DATABASE_URL="postgresql://user:password@localhost:5432/mydatabase"
-    NEXTAUTH_SECRET="your_nextauth_secret_here"
-    ```
+
 
 4. **Generate Prisma Client:**
     ```bash
@@ -75,7 +69,6 @@ You can start editing the page by modifying `src/app/page.tsx`. The page auto-up
 - Sign In/Sign Up
 - Protected Routes
 - Simple To-Do List (CRUD)
-- ~~Dark Mode~~ (Not yet implemented)
 - ~~Forgot Password~~ (Not yet implemented)
 - ~~Update Profile~~ (Not yet implemented)
 

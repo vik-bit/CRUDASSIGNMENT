@@ -78,11 +78,7 @@ const SignInForm = () => {
               </FormItem>
             )}
           />
-          <FormDescription>
-            <Link href="/forgot-password" className="font-semibold text-blue-500">
-              Forgot Password?
-            </Link>
-          </FormDescription>
+          
           <FormDescription>
             Don&apos;t have an account?{" "}
             <Link href="/sign-up" className="font-semibold text-blue-500">

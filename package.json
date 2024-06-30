@@ -4,7 +4,7 @@
   "private": true,
   "scripts": {
     "dev": "next dev",
-    "build": "pnpx prisma generate && prisma migrate dev `newones` init && next build",
+    "build": " prisma generate && prisma migrate dev `newones` init && next build",
     "start": "next start",
     "lint": "next lint",
     "prisma": "prisma",
