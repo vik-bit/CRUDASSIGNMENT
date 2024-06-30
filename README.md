@@ -1,7 +1,7 @@
 
 # nextjs-todolist-w-prisma-postgresql
 
-This is a to-do list application created with Next.js 14. You can use it to manage your tasks efficiently. For a preview, visit the deployed website: [https://crudassignment-gamma.vercel.app/], which is deployed using Vercel with its Vercel Postgres.
+This is a to-do list application created with Next.js 14. You can use it to manage your tasks efficiently. For a preview, visit the deployed website: [https://crudassignment-gamma.vercel.app/], which is deployed using Vercel with its Postgres database hosted on render.
 
 ## Getting Started
 
