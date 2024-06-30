@@ -69,8 +69,7 @@ You can start editing the page by modifying `src/app/page.tsx`. The page auto-up
 - Sign In/Sign Up
 - Protected Routes
 - Simple To-Do List (CRUD)
-- ~~Forgot Password~~ (Not yet implemented)
-- ~~Update Profile~~ (Not yet implemented)
+
 
 ### Important Packages
 
