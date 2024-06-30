@@ -4,10 +4,12 @@
   "private": true,
   "scripts": {
     "dev": "next dev",
-    "build": "prisma generate && next build",
+    "build": "pnpx prisma generate && prisma migrate dev `newones` init && next build",
     "start": "next start",
     "lint": "next lint",
-    "prisma": "prisma"
+    "prisma": "prisma",
+    "prisma-migrate-dev": "docker exec myApp npx prisma migrate dev",
+    "prisma-studio": "docker exec myApp npx prisma studio" 
     
   },
   "dependencies": {
