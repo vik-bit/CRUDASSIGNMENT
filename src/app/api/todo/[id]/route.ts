@@ -38,7 +38,7 @@ export const PATCH = async (req: Request, { params }: { params: { id: string } }
     const userId = session.user.id;
     const body = await req.json();
     // validate req body
-    if (!body.title || !body.dueDate || !body.categoryId) {
+    if (!body.title || !body.dueDate ) {
       return NextResponse.json({ message: "Missing required fields!" }, { status: 400 });
     }
     const todo = await db.todo.update({
@@ -48,7 +48,6 @@ export const PATCH = async (req: Request, { params }: { params: { id: string } }
       data: {
         title: body.title,
         dueDate: new Date(body.dueDate),
-        categoryId: body.categoryId,
         userId: userId,
       },
     });
